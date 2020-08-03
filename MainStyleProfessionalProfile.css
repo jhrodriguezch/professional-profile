@@ -1,0 +1,173 @@
+/*General page*/
+a{
+text-decoration:none;
+}
+body {
+  margin: 1em 7em 0em 7em;
+  font-family: serif;
+  max-width: 1200px;
+}
+/*Header*/
+.backgrowndheader {
+  background-color: lavender;
+  padding: 1em 7.5em 1em 7.5em;
+  margin: -1em -7em 0em -7em;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+.backgrowndheader1{
+  padding-right: 1em;
+  margin: 0em -1em 0em -1em;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: right;
+}
+.backgrowndheader1 h2{
+  font-family: serif;
+}
+.backgrowndheader1 h4{
+  font-style: oblique;
+  font-family: sans-serif;
+}
+/*Navigator*/
+.navigator{
+  margin: 0.3em -.5em 0.5em -.5em;
+  padding:.1em;
+  border: 1px lavender solid;
+  border-radius: 10px;
+}
+.navigator a{
+  color: white;
+  background-color:lavender;
+  text-shadow: 1px 1px 5px black;
+  padding-top: .4em;
+  padding-bottom: .4em;
+  border-radius: 10px;
+  text-align: center;
+  margin:0.2em .2em 0.2em 0.2em;
+}
+.navigator a:hover{
+  background-color:#d4d4f7;
+}
+.navigator a:active{
+  background-color:LightSteelBlue;
+}
+.navigator {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+}
+.navigator a{
+  flex-grow:1;
+}
+/*Footer*/
+footer {
+  border: lavender 1px solid;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+  margin: 0 -.5em .5em -.5em;
+}
+/*Principal content*/
+.bodycontainer{
+  border: 1px lavender solid;
+  border-radius: 10px;
+  margin: 0 -.5em .5em -.5em;
+  padding: 0 .5em 0 .5em;
+}
+.container{
+  border-radius: 10px;
+  margin: .5em 0.1em .5em 0.25em;
+  padding: 0.5em .5em 0.5em .5em;
+}
+aside{
+  background: lavender;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+main{
+  border:1px solid lavender;
+}
+/*Main and Asides
+Artistic Titles*/
+.container h3{
+  text-align: center;
+  border: 1px solid lavender;
+  border-radius: 10px;
+  padding: 0.3em 0 0.3em 0;
+  color: darkgray;
+}
+/*Flex box principal*/
+.fb1{
+  display: flex;
+  flex-direction: row;
+}
+.fb11{
+  flex: 1 1 70%;
+}
+.fb12{
+  flex: 1 1 30%;
+  /*FLEX*/
+  display: flex;
+  flex-flow:row wrap;
+  align-content: flex-start;
+}
+.fb12 span{
+  border: 1px solid #d4d4f7;
+  padding: .2em;
+  margin: .2em;
+  text-align: center;
+  border-radius: 5px;
+  height: 70px;
+  /*FLEX*/
+  flex-grow: 1;
+}
+.fb12 span:hover{
+    background: #d4d4f7;
+}
+/*General information*/
+.fb3{
+  /*FLEX*/
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.fb31{
+  flex-basis: 20%;
+}
+.fb32 {
+  flex-basis: 70%;
+  font-size: 17px;
+  color: black;
+  /*FLEX*/
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.fb31{
+  border: .1px solid lightgray;
+}
+h4 {
+  text-align: center;
+}
+.tab{
+  padding: 0 0 0 2em;
+}
+/*soft skils*/
+.fb41{
+  font-size:17px;
+  font-weight: bold;
+  padding: 0 0 0 0.5em;
+  background-color:lavender;
+}
+.fb42{
+  padding: 0.5em 0em 0.5em 2em;
+}
+.fb4 div{
+  border: 1px solid lavender;
+  border-radius: 5px;
+}
